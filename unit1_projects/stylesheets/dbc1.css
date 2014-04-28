@@ -1,0 +1,11 @@
+body {
+	background-color: lightblue;
+}
+.description {
+	font: 18px sans-serif;
+}
+#footer {font: 16px Arial;}
+p {
+	color: black;
+}
+
