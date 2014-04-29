@@ -1,0 +1,60 @@
+#content_area {
+}
+.pink {
+	color: pink;
+}
+
+a:first-of-type {color: green;}
+a:last-of-type {color: #FF00FF;}
+a:link {text-decoration : none;}
+a:visited{color: #0000FF;}
+a:hover {color: #FF00FF;}
+a:active{color: #0000FF;}
+
+aside {
+	float: right;
+	padding: 15px;
+	position: absolute;
+	background: #F5F5F5;
+	left: 705px;
+
+}
+.header {
+	margin: 10px auto;
+	padding-right: 1px;
+	position: absolute;
+	left:10px;
+	top:10px;
+	border: solid;	
+}
+#content_box {
+	width: 100%;
+	position: relative;
+} 
+section {
+	width:60.6%;
+	padding: 5px 5%	;
+	float: left;
+	background: white;	
+	position: relative;
+	box-shadow: 0 1px 5px grey;	
+}
+.page {
+	margin: 0 auto;
+	width: 1000px;
+	vertical-align: baseline;
+}
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right:0;
+	background: #FF00FF	;
+}
+.caption {
+	position: absolute;
+}
+#tab{
+	height: 200px;
+	width:1000px;
+}
