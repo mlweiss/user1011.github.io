@@ -4,8 +4,8 @@ body {
 
 }
 
-a:link {color: black},
 a {text-decoration: none};
+a:link {color: black},
 a:visited{color:black};
-a:visited{color:#868686};
+a:hover{color:#868686};
 
