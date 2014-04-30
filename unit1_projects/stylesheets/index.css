@@ -1,0 +1,9 @@
+body {
+	font-family: serif;
+	background-color: #F0F0F0;
+}
+a {text-decoration: none};
+a:link {color: black};
+a:visited{color:black};
+a:visited{color:#868686};
+
