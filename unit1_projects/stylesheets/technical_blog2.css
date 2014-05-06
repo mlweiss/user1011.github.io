@@ -1,0 +1,137 @@
+#content_area {
+}
+.pink {
+	color: pink;
+}
+
+a:first-of-type {color: green;}
+a:last-of-type {color: #FF00FF;}
+a:link {text-decoration : none;}
+a:visited{color: #0000FF;}
+a:hover {color: #FF00FF;}
+a:active{color: #0000FF;}
+
+aside {
+	float: right;
+	padding: 15px;
+	position: absolute;
+	background: #F5F5F5;
+	left: 705px;
+
+}
+.header {
+	margin: 10px auto;
+	padding-right: 1px;
+	position: absolute;
+	left:10px;
+	top:10px;
+	border: solid;	
+}
+#content_box {
+	width: 100%;
+	position: relative;
+} 
+section {
+	width:60.6%;
+	padding: 5px 5%	;
+	float: left;
+	background: white;	
+	position: relative;
+	box-shadow: 0 1px 5px grey;	
+	font-family: sans-serif;
+}
+.page {
+	margin: 0 auto;
+	width: 1000px;
+	vertical-align: baseline;
+}
+h1 {
+	font-family: Arial;
+	color: #A62A2A;	
+	font-size: 1.2em;
+}
+#top-box {
+	background-color: #FF00FF;
+	height: 50px;
+	width: 200px;
+	box-shadow: 0px 1px 5px;
+	padding: 40px 0 0 0;	
+	text-align: center;
+}
+#top-box-1 {
+	background-color: #FF00FF;
+	height: 50px;
+	width: 200px;
+	box-shadow: 0px 1px 5px;
+	padding: 40px 0 0 0;	
+	text-align: center;
+	position: relative;
+	top: 40px;
+	right: -20px;
+}
+
+#bottom-box {
+	background-color: blue;
+	height: 50px;
+	width: 200px;
+	box-shadow: 0px 1px 5px;
+	text-align: center;
+	padding: 40px 0 0 0;		
+}	
+#top-box-2 {
+	background-color: #FF00FF;
+	height: 50px;
+	width: 200px;
+	box-shadow: 0px 1px 5px;
+	padding: 40px 0 0 0;	
+	text-align: center;
+	position: absolute;
+	top: 1210px;
+	right: 50px;
+}
+
+
+#bottom-box-3a {
+	background-color: blue;
+	height: 50px;
+	width: 200px;
+	box-shadow: 0px 1px 5px;
+	text-align: center;
+	padding: 40px 0 0 0;	
+	position: absolute;
+	top: 0px;
+	left: 200px;
+
+}	
+#top-box-3 {
+	background-color: #FF00FF;
+	height: 50px;
+	width: 200px;
+	box-shadow: 0px 1px 5px;
+	padding: 40px 0 0 0;	
+	text-align: center;
+	position: relative;	
+}
+
+#border {
+	background-color: red;
+	height: 20px;
+	width: 200px;
+	text-align: center;	
+	box-shadow: 0px 1px 5px;	
+}
+}
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right:0;
+	background: #FF00FF;
+}
+.caption {
+	position: absolute;
+}
+#tab{
+	height: 200px;
+	width:1000px;
+}

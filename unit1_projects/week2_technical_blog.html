@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "utf-8">
+	<link rel = "stylesheet" type = "text/css" href = "stylesheets/techn	ical_blog2.css">
+	<title> Michael's Blog </title>
+</head>
+<body background = "images/background_grey.jpg">
+<div id = "header_area">
+	<div class = "page">
+		<header id = "header">
+			<h1>
+				<a class = "link" href = "https://www.cims.nyu.edu">
+					<img id = "tab" src = "images/header_graphic4.jpg" alt = "Doghouse"> 
+				</a>
+			</h1>
+		</header>
+	</div>
+</div>
+
+<div id = "content_area">
+	<div class = "page">
+		<div id = "content_box">
+			<section>
+				<article class = "article">
+				<h1> CSS Positioning: Getting Your Absolutes and Relatives Straight </h1>
+				<p>
+					In this blog post I'll explain the possible positioning options available in CSS.
+				</p>
+				<p>
+					<ol>
+			
+			<!-- Static Position -->						
+				<h3> <li>  position:static </li></h3>
+						<p> This is the default positioning for all elements in CSS. This means that the element has no specific directions for how to be positioned so it is placed as it would normally occur in the document. </p>
+						<p> This would generally be used if it is necessary to reset a positioning that has already been set. </p>
+<pre>
+#top-box {
+	position:static;
+}
+#bottom-box {
+	position:static
+}
+</pre>
+				<div id = "border"> id = "top-border" </div>
+				<div id = "top-box"> id = "top-box"</div>
+				<div id = "bottom-box"> id = "bottom-box" </div>
+				<div id = "border"> id = "bottom-border" </div>
+
+		<!-- Relative Position -->
+
+		<h3> <li>  position:relative </li></h3>
+				Specifying a <span id = "italic"> relative </span> position allows you to move the element relattive to where it would normally occur in the document, i.e. relative to its static position. 
+<pre>
+#top-box {
+	position: relative;
+	top: 40px;
+	right: -20px
+}
+</pre>
+				<div id = "border"> id = "top-border" </div>
+				<div id = "top-box-1"> id = "top-box"</div>
+				<div id = "bottom-box"> id = "bottom-box" </div>
+				<div id = "border"> id = "bottom-border" </div>
+				<p> Notice in the diagram how the position of top-box has changed relative to its position in the previous example. The next element did not move because its position in the flow of the document was left unchanged. </p>
+	
+	<!-- Absolute Position -->			
+	
+			<h3> <li>  position:absolute </li></h3>
+				Specifying an <span id = "italic"> absolute </span> position removes the element from the document and allows it to be placed in an exact location on the page.
+<pre>
+#top-box {
+	position: absolute;
+	top: 1210px;
+	right: 50px;
+}
+</pre>
+
+				<div id = "border"> id = "top-border" </div>
+				<div id = "top-box-2"> id = "top-box"</div>
+				<div id = "bottom-box"> id = "bottom-box" </div>
+				<div id = "border"> id = "bottom-border" </div>
+				<p> The remaining elements get stacked in the order that they appear in the document. Thus the bottom-box takes the position previously held by the top-box as it is not the next element in the order of the flow of the document. </p>	
+		
+
+	<!-- Relative + Absolute Position -->			
+	
+			<h3> <li>  position:absolute + relative </li></h3>
+				<p> The power of the relative and absolute position features is clear when they are used together. By placing box-1a inside of box-1 and giving the latter box a relative position we are able to adjust the position of box-1a relative to the position of box-1. This is a bit counterintuitive as the box that remains in place is actually given the relative designation, but if you think that the absolute attribute removes the box from the document and positions it relative to the box designated relative it makes a bit more sense. </p>
+<pre>
+#box-1 {
+	position: relative;
+}
+
+#box-1a {
+	position: absolute;
+	top: 0px;
+	right: 200px;
+}
+</pre>
+
+				<div id = "border"> id = "top-border" </div>
+				<div id = "top-box-3"> id = "box-1"
+					<div id = "bottom-box-3a"> id = "box-1a" </div>
+				</div>
+				<div id = "border"> id = "bottom-border" </div>
+
+				</ol>
+			<h4> Conclusion </h4>
+			<p> This covers some of the most useful position attributes. It would be useful to check out resorces for some of the ones not covered here, like the float and fixed positions.
+			</p>
+				</p>
+
+				</article>
+
+			</section>
+			<aside class = "sidebar">
+				<ul> 
+					<h1> Must Try Links! </h1>
+					<img src = "images/pow.jpg"> 
+					<li> <a href = "https://cims.nyu.edu" target = "_blank"> 
+						A good place to learn some new things! </a> </li>
+					<li> <a href = "https://www.google.com" target = "_blank"> A great website for the explorer in all of us! </a> </li>
+					<li> <a href = "http://www.nytimes.com" target = "blank"> Explaining the world in a few paragraphs each day </a> </li>
+					<li> <a href = "http://www.ebay.com" target = "blank"> Maybe you'd like to find a bargain? </a> </li>
+					<li> <a href = "http://www.youtube.com" target = "blank"> Or if you're feeling bored </a> </li>
+					<li> <a href = "http://www.baidu.com" target = "_blank"> And now for something else </a> </li>
+				</ul>
+
+			</aside>
+
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
