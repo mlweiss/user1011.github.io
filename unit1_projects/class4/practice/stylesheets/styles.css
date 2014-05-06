@@ -339,6 +339,7 @@ footer:after {
     padding:3px;
     margin: 1px;
     font-size:0.75em;
+    font-family: "sansation_light";
   }
   footer nav li a{
     font-size: .8em;
@@ -353,4 +354,10 @@ footer:after {
   #organizations ul li img{
     display:none;
   }
+}
+
+@font-face
+{
+  font-family: 'sans-serif', 'sansation_light';
+  src: url(sansation_light.woff) format('woff');
 }
