@@ -4,13 +4,18 @@
 	color: pink;
 }
 
-a:first-of-type {color: green;}
-a:last-of-type {color: #FF00FF;}
-a:link {text-decoration : none;}
-a:visited{color: #0000FF;}
-a:hover {color: #FF00FF;}
-a:active{color: #0000FF;}
-
+h1 {
+	font-family: 'Nunito';
+}
+a:hover {color: pink;}
+a {
+	text-decoration: none;
+	font-family: 'Nunito', sans-serif;
+}
+@font-face {
+	font-family: 'Nunito';
+	src: url("nunito.woff") format("woff");
+}
 aside {
 	float: right;
 	padding: 15px;

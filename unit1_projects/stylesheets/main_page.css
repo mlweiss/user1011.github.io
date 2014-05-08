@@ -1,0 +1,67 @@
+body {
+	background: #BFDBD1;	
+}
+.section{
+	font-family: "Megrim", sans-serif;
+}
+.subcontainer{
+	font-family: "Arial", sans-serif;
+	font-size: 18px;
+/* 	color: #689886; */
+	color: black;
+
+}
+
+h1 span.other {
+	color: #35D4A4;
+}
+#sidebar span.light-green {
+	font-family: "Poiret One", sans-serif;
+	font-size: 1.1em;
+	color: #2F6F57;
+}
+div {
+	display: block;
+}
+.container{
+
+}
+#header{
+	font-family: "Raleway+Dots", sans-serif;
+	font-size: 800;
+	color: #2F6F57; 
+
+}
+img {
+	opacity: 0.6;
+	width: 1000px;
+	height: 200px;
+}
+#content{
+	float: left;
+	width: 49.5%;
+	border-top: 5px solid #006F48;
+	margin: 0px 0px 100px 0px;
+}
+a:hover{
+	color: #456C5E;
+}
+a {
+	color: #456C5E;
+	text-decoration: none;
+}
+#content a {
+	color: #2F6F57;
+	text-decoration: none;
+}
+ul {
+	list-style-type: none;
+}
+#sidebar{
+	float: right;
+	width: 49.5%;	
+	border-top: 5px solid #006F48;	
+}
+#footer{
+
+}
