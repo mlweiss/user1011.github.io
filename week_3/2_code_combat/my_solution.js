@@ -165,7 +165,40 @@ return true;
 if (name == "Gordon")
 return true;
  
- 
+ /*
+What parts of your strategy worked? What problems did you face?
+
+More or less most of my strategy worked. Sometimes the character wouldn't move as much as I expected,
+but more or less the task was pretty straightforward.
+
+What questions did you have while coding? What resources did you find to help you answer them?
+This challenge was pretty self-contained and did not require additional resources.
+
+What concepts are you having trouble with, or did you just figure something out? If so, what?
+Everything was pretty straightforward here.
+
+Did you learn any new skills or tricks?
+Aside from some more practice with the this construction in Java, nothing new appeared.
+
+How confident are you with each of the Learning Competencies?
+Pretty confident.
+
+Which parts of the challenge did you enjoy?
+The game was pretty cute and was well constructed for the most part.
+
+Which parts of the challenge did you find tedious?
+The game was rather buggy and slow, making it a bit cumbersome to work with. Also I am not sure how much it actually aids in
+learning Javascript.
+
+What is this referring to? Think programming-wise rather than in the terms of the game.
+'this' refers to the object in which you are writing code.
+
+What does the () do in JavaScript?
+The () in Javascript is used for a function call that has no arguments.
+
+What is the point of the semicolons?
+Semicolons denote when a line has ended in the code.
+ */
  
  
  
