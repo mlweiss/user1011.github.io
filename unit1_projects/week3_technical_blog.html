@@ -23,7 +23,21 @@
 		<div id = "content_box">
 			<section>
 				<article class = "article">
-					<img src = "unit1-projects/images/wireframe.jpg">
+					<h2> Why is JavaScript So Popular in Web Development </h2>
+					<p>
+					For this blog post I will discuss some of the uses of JavaScript in web development. This will by no means be an exhaustive outline of the topic as I my knowledge of it at this point does not extend that far and it is unlikely that given the functionality of JavaScript that one could give such an outline in a post, indeed it would much be much better the topic of a book. 
+					</p>
+
+					<p> Getting started let’s cover some basics of the Internet. The Internet is basically a massive network of computers connected to each other across the world. These networks make it possible for computers to communicate with each other.  A very common occurrence is for a computer to send a request to a server hosting the files comprising a webpage and then receiving those files back in a readable form. The protocol for these types of interactions is called HTTP or Hyper Text Transfer Protocol. For simple websites that are written only in HTML and CSS, the server finds the required files and sends them right back to the requesting computer. For more complex ones, for instance those that should display personalized data after signing in, certain programs transform and generate documents. When these programs run before the user has received the documents it is called <b> server-side programming </b>. In other circumstances it is useful to have a program that runs after the page has been sent, this is called <b> client-side programming </b>.  Client-side web programming is what JavaScript was invented for. </p>
+
+					<p> For instance one nice (or rather annoying) use of JavaScript is the <pre> open </pre> method of the <pre> window </pre> object. It takes a URL as an argument and opens a new window showing that URL. For instance running the following code will open up the front page of my blog <pre> var myblog = window.open(“http://user1011.github.io”); In the early days of web development this feature was over-used by web developers to draw the attention of users to new information and eventually ads. Now this is often blocked by default pop-up blocking in many modern browsers. </p>
+
+					<p> JavaScript can be used to write scripts that can add dynamic elements to a page. Every window object also has a <pre> document </pre> property, which contains an object representing the document shown in that window. This object has a <pre> write </pre> method, which writes some HTML to the document. With the addition of a <pre> script </pre> tag, the script will be called during the loading of the document and HTML will be inserted into the place where the tag was. This can be useful for dynamic features such as displaying the current time on a webpage. </p>
+
+					<p> Finally JavaScript can be used to produce dynamic URLs based on information submitted to a form. For instance when ordering something online one adds their information into a number of fields. When this information is ‘submitted’ an action URL is generated from this information and the browser requests this URL from the server. The name of the form can then be used to access it with JavaScript, after which the parameters are added to the URL. </p>
+
+					<p> I hope to touch on more of this in a future blog post, where I can go a little bit more in detail with some examples of how these things work. </p>
+
 				</article>
 
 			</section>
