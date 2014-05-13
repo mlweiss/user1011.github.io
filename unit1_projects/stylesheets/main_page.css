@@ -12,6 +12,10 @@ body {
 
 }
 
+element pre {
+	Common.attrib,
+	Inline.model
+}
 h1 span.other {
 	color: #35D4A4;
 }
