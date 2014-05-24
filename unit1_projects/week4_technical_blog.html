@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "utf-8">
+	<link rel = "stylesheet" type = "text/css" href = "stylesheets/dbc2.css">
+	<title> Michael's Blog </title>
+</head>
+<body background = "images/background_grey.jpg">
+<div id = "header_area">
+	<div class = "page">
+		<header id = "header">
+			<h1>
+				<a class = "link" href = "https://user1011.github.io">
+					<img id = "tab" src = "images/header_graphic4.jpg" alt = "Doghouse"> 
+				</a>
+			</h1>
+		</header>
+	</div>
+</div>
+
+<div id = "content_area">
+	<div class = "page">
+		<div id = "content_box">
+			<section>
+				<article class = "article">
+					<h1> JavaScript vs. Ruby: Two Rather Different Ways to Get There
+					</h1>
+
+					<p>
+						In the first few weeks of the prep phase for DevBootcamp we've been introduced to JavaScript and Ruby as object-oriented scripting programming languages. We have not taken a look yet at the real power of JavaScript in providing client-side scripts for web pages, but we have done some scripting with the language. Ruby is ideal for writing quick scripts and seems better suited for a lot of the little mathematical exercises that we have been solving recently. In this blog post I will compare the two languages based on their syntaxa and their different object-oriented programming paradigms. This comparison is based mostly on my experience with the two languages in the past few weeks and doesn't cover a lot of topics that I would consider necessary to adequetely analyze the two.
+					<h2> Syntax </h2>
+					<h3> JavaScript </h3>
+					<p>
+						 From what I've been able to gather so far, JavaScript is a strong language, but not ideal for quickly writing scripts as the syntax is a bit cumbersome. It borrows a lot of its syntax from the C programming language, and thus keeps its insistence on ending most lines with a semicolon. It is also very particular about the use of a comma after assigning a value to an Object aspect. 
+					</p>
+					<p>
+						<h3> Ruby </h3>
+						Ruby does not have this insistence on syntactical formality and delineates lines by looking for new lines in the code. Unlike Python which has a somewhat similar syntax, Ruby is able to tell the hierarchy of the code via the use of 'end' denote the end of a block, whereas Python requires exact indentation. 
+					</p>
+
+					<h2> Object Oriented Programming Principles </h2>
+					<h3> JavaScript </h3>
+					<p>
+						JavaScript is what is known as a prototype-based programming language. This means that frequent behaviors are performed via a process of cloning existing objects that serve as prototypes. Thus one writes a prototype with certain behaviors and then writes sub-objects of that prototype that will inherit those behaviors and have its own specific behaviors. A prototype can have many sub-objects and in JavaScript objects can be created 'ex-nihilo' and then subsequently cloned as a sub-objects of a prototype, thus keeping their methods and inheriting those of the prototype.
+					</p>
+					<h3> Ruby </h3>
+					<p>
+						Ruby in comparison to JavaScript is a class-based programming language. That means objects are created as being a part of a pre created class that already has a certain number of methods. Ruby allows for new methods to be written for a class at runtime. Thus whereas JavaScript places emphasis on creating objects and then determining what type of properties that they should have, Ruby allows one to determine the class based on the existing methods available and choose one that is most suitable for the object.
+					</p>
+				</article>
+
+			</section>
+			<aside class = "sidebar">
+				<ul> 
+					<h1> Must Try Links! </h1>
+					<img src = "images/pow.jpg"> 
+					<li> <a href = "https://cims.nyu.edu" target = "_blank"> 
+						A good place to learn some new things! </a> </li>
+					<li> <a href = "https://www.google.com" target = "_blank"> A great website for the explorer in all of us! </a> </li>
+					<li> <a href = "http://www.nytimes.com" target = "blank"> Explaining the world in a few paragraphs each day </a> </li>
+					<li> <a href = "http://www.ebay.com" target = "blank"> Maybe you'd like to find a bargain? </a> </li>
+					<li> <a href = "http://www.youtube.com" target = "blank"> Or if you're feeling bored </a> </li>
+					<li> <a href = "http://www.baidu.com" target = "_blank"> And now for something else </a> </li>
+				</ul>
+
+			</aside>
+
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
